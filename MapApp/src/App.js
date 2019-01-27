@@ -10,12 +10,40 @@ export class App extends Component {
     console.log(this.state.points);
   }
 
+  onClickHandler = (e) => {
+    var points = this.state.points.plays.filter(x => x.latitude === e.latitude).filter(x => x.longitude === e.longitude)
+
+    var groupBy = function(xs, key) {
+      return xs.reduce(function(rv, x) {
+        (rv[x[key]] = rv[x[key]] || []).push(x);
+        return rv;
+      }, {});
+    };
+
+    var groupedBy = groupBy(points, "songId");
+    
+    var results = []
+
+    Object.keys(groupedBy).forEach(x => {
+      results.push({"key": x, "value": groupedBy[x]})
+    });
+
+    var sortResults = results.sort((a,b) => {
+        if (a.value.length < b.value.length)
+          return -1;
+        if (a.value.length > b.value.length1)
+          return 1;
+        return 0;
+    }).reverse();
+    window.open("http://localhost:1234/?q=[" + sortResults.map(x => "\"" + x.key + "\"").toString() + "]", "_self")
+  };
+
   render() {
     return (
       <Map google={this.props.google} zoom={14}>
         {
           this.state.points.plays.map(marker => (
-              <Marker onClick={(() => window.open("http://localhost:1234", "_self")).bind(this)}
+              <Marker onClick={this.onClickHandler.bind(this, marker)}
                 name={'Current location'}
                 position={{lat: marker["latitude"], lng: marker["longitude"]}} /> 
           ))     

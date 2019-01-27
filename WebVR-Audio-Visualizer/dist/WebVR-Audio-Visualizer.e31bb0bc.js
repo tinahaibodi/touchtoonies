@@ -72382,7 +72382,7 @@ require("./components/BigBeatParticle");
 require("./components/EyesDraw");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"aframe":"node_modules/aframe/dist/aframe-master.js","./scripts/WebAudioShim":"scripts/WebAudioShim.js","./components/AudioAnalyser":"components/AudioAnalyser.js","./components/PlayButton":"components/PlayButton.js","./components/Menu":"components/Menu.js","./components/Item":"components/Item.js","./components/EntityGenerator":"components/EntityGenerator.js","./components/Layout":"components/Layout.js","./components/3DSpectrum":"components/3DSpectrum.js","./components/Waveform":"components/Waveform.js","./components/BallLight":"components/BallLight.js","./components/BeatParticle":"components/BeatParticle.js","./components/BigBeatParticle":"components/BigBeatParticle.js","./components/EyesDraw":"components/EyesDraw.js"}],"../.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"aframe":"node_modules/aframe/dist/aframe-master.js","./scripts/WebAudioShim":"scripts/WebAudioShim.js","./components/AudioAnalyser":"components/AudioAnalyser.js","./components/PlayButton":"components/PlayButton.js","./components/Menu":"components/Menu.js","./components/Item":"components/Item.js","./components/EntityGenerator":"components/EntityGenerator.js","./components/Layout":"components/Layout.js","./components/3DSpectrum":"components/3DSpectrum.js","./components/Waveform":"components/Waveform.js","./components/BallLight":"components/BallLight.js","./components/BeatParticle":"components/BeatParticle.js","./components/BigBeatParticle":"components/BigBeatParticle.js","./components/EyesDraw":"components/EyesDraw.js"}],"../../.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -72409,7 +72409,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36167" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46853" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -72551,5 +72551,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../.npm-global/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/WebVR-Audio-Visualizer.e31bb0bc.map

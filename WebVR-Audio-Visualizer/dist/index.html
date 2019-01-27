@@ -87,10 +87,44 @@
 
     <!-- Begin Panel -->
     <div id="beginPanel">
-        <div class="wrapper" id="wrapper" style="display:flex;flex:auto;justify-content: center;align-items: center;align-content: center; font-size:3rem;">
+        <div class="wrapper" id="wrapper" style="display:flex;flex:auto;justify-content: center;align-items: center;align-content: center; font-size:3rem; 1flex-direction: column;">
             <label class="button" id="beginBtn">Start!</label>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+
+  if ("withCredentials" in xhr) {
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    xhr = null;
+  }
+
+  return xhr;
+}
+
+$(document).ready(function () {
+  var url = new URL(window.location.href);
+  var c = url.searchParams.get("q");
+  var payload = JSON.parse(c);
+  payload.forEach(function (x) {
+    var Http = new XMLHttpRequest();
+    var url = 'https://conuhacks-playback-api.touchtunes.com/song/' + x;
+    var request = createCORSRequest("get", url);
+
+    if (request) {
+      request.onreadystatechange = function (res) {
+        console.log(res);
+      };
+
+      request.send();
+    }
+  });
+});</script>
 </body>
 
 </html>
