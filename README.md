@@ -1,7 +1,6 @@
 ## TouchToonies
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/Hylhe6H"><a href="//imgur.com/Hylhe6H"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+![alt text](https://raw.githubusercontent.com/tinahaibodi/touchtoonies/branch/path/img/gallery-1.jpg)
 
 ## Inspiration
 
