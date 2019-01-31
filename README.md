@@ -1,7 +1,6 @@
 ## TouchToonies
 
-<a href="https://ibb.co/sp76XFk"><img src="https://i.ibb.co/sp76XFk/gallery.jpg" alt="gallery" border="0"></a>
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/Hylhe6H"><a href="//imgur.com/Hylhe6H"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 ## Inspiration
