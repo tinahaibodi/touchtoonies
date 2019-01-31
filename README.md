@@ -2,6 +2,8 @@
 
 <center><a href="https://imggmi.com/" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/70bc5412cc82759342d4a0669fe49d8e-full.jpg" border="0"/></a></center>
 
+<center><a href="https://imggmi.com/view/2019/1/31/f01abd70901f75a9a3aca2e9e20c2092-full.jpg.html" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/f01abd70901f75a9a3aca2e9e20c2092-prev.jpg" border="0"/></a></center>
+
 ## Inspiration
 
 After first meeting as a group, we bonded over our love for music and playlist making so we decided to solve a problem that was close to our hearts. Inspired by the TouchTunes challenge, after playing with the API for some time we discovered that we wanted to help empower recording companies and music festival organizers with identifying prominent performance candidates in the area.
