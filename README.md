@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Inspiration
 
-In the project directory, you can run:
+After first meeting as a group, we bonded over our love for music and playlist making so we decided to solve a problem that was close to our hearts. Inspired by the TouchTunes challenge, after playing with the API for some time we discovered that we wanted to help empower recording companies and music festival organizers with identifying prominent performance candidates in the area.
 
-### `npm start`
+Imagine if you're a festival organizer for Osheaga and you wanted to optimize the amount of people that would buy tickets for your festival, attend, and/or engage on social media by inviting the most in-demand artists by region. Not only would you be able to increase ticket sale revenue but you'd be able to increase the regional media coverage and engagement.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+TouchToonie allows you to access over 180M Jukebox song play events, in order to help identify the most played songs, artists and music content in your region. By identifying this top content, users are given the ability to view this data in a virtual reality visualization immersing them into the audio experience with the indicated artist song spearheading the experience.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## What it does
 
-### `npm test`
+A webVR visualization platform that helps record companies and festival organizers identify prominent candidates for touring and events by allowing potential clients to view the data for top musical candidates in the region by geolocation and visualize the data through an audio and visual VR experience on their web browser.
+How we built it
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We built our application with the TouchTunes API using JSON files with identification features that pull data with GET requests and geo-location data that searches JSON query data for the top 10 artists and songs within the region. Data is then analyzed with the Google Cloud Maps API and is then visualized through dominant locations with a Maps heat-map. Our ReactJS application was then sent our parsed data to the React360 environment that was initialized by ReactVR components with our 3-D shapes being created in Unity with 3-D modelling, with the animation.spring function.
 
-### `npm run build`
+## Challenges we ran into
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Integrating the WebVR environment with the JSON files and queried data, and Google Cloud APIs was the most challenging part of our project. As there are limited webVR application with geo-location data, we had limited documentation to reference when navigating through data integration errors and creating our menu for the audio visualizer by ensuring that a C++ wrapper was created to input our visualization in a JS environment.
+Accomplishments that we're proud of
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+We're proud of being able to build a WebVR application that makes virtual reality more accessible to the music industry and allows for music festivals to be a more personalized and engaging experience. We're also very proud of the fact that we chose to visualize the data that we used (both geolocation and real-time) to create an innovative experience outside the typical corporate graphing.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## What we learned 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We learned how to design and integrate location data with a WebVR environment, as well as creating a product for a two-sided marketplace. We were also new to WebVR development and since we were developing without a Google Cardboard and only with Unity we found that the 3-D modelling was challenging without physically being able to visualize the dimensions outside of the given axis.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What's next for TouchToonies
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The next product feature that we'd like to add would identify and predict the cultural characteristics of that region and how the artist can improve music curation. While we were able to create a product that would drive social awareness, and analyze the data to identify points of trends, and discover anomalies.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    web-vr
+    javascript
+    google-cardboard
+    google-cloud
+    touch-tunes API 
+    firebase
+    react
+    react-360
+    json
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
