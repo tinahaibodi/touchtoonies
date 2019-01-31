@@ -2,7 +2,7 @@
 
 <center><a href="https://imggmi.com/" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/70bc5412cc82759342d4a0669fe49d8e-full.jpg" border="0"/></a></center>
 
-<center><a href="https://imggmi.com/view/2019/1/31/f01abd70901f75a9a3aca2e9e20c2092-full.jpg.html" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/f01abd70901f75a9a3aca2e9e20c2092-prev.jpg" border="0"/></a></center>
+<center><p><a href="https://imggmi.com/view/2019/1/31/f01abd70901f75a9a3aca2e9e20c2092-full.jpg.html" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/f01abd70901f75a9a3aca2e9e20c2092-prev.jpg" border="0"/></a></p></center>
 
 ## Inspiration
 
