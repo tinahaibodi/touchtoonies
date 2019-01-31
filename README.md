@@ -1,6 +1,6 @@
 ## TouchToonies
 
-<a href="https://imggmi.com/" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/70bc5412cc82759342d4a0669fe49d8e-full.jpg" border="0"/></a>
+<center><a href="https://imggmi.com/" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/1/31/70bc5412cc82759342d4a0669fe49d8e-full.jpg" border="0"/></a></center>
 
 ## Inspiration
 
